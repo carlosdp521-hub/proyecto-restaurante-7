@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Restaurante Sabores de Chile</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor-header">
+            <h1>Restaurante Sabores de Chile</h1>
+            <p>Tradición, sabor y gastronomía chilena</p>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <a href="#quienes">Quiénes somos</a>
+        <a href="#platos">Platos</a>
+        <a href="#bebidas">Bebidas</a>
+        <a href="#postres">Postres</a>
+        <a href="#formulario">Reservas</a>
+    </nav>
+
+    <main class="grid-container">
+
+        <section id="quienes" class="card quienes">
+            <h2>Quiénes somos</h2>
+            <p>
+                Somos un restaurante ubicado en Santiago de Chile, especializado en
+                gastronomía chilena tradicional. Nuestro objetivo es entregar una
+                experiencia cercana, familiar y auténtica, rescatando los sabores
+                típicos del país.
+            </p>
+        </section>
+
+        <section id="platos" class="card">
+            <h2>Platos</h2>
+            <p>
+                Ofrecemos empanadas de pino, pastel de choclo, cazuela,
+                humitas y porotos granados.
+            </p>
+        </section>
+
+        <section id="bebidas" class="card">
+            <h2>Bebidas</h2>
+            <p>
+                Contamos con mote con huesillo, jugos naturales, bebidas
+                tradicionales y preparaciones típicas chilenas.
+            </p>
+        </section>
+
+        <section id="postres" class="card">
+            <h2>Postres</h2>
+            <p>
+                Nuestra carta incluye leche asada, sopaipillas pasadas,
+                kuchen sureño y mote con huesillo.
+            </p>
+        </section>
+
+        <section class="card especialidades">
+            <h2>Especialidades</h2>
+            <p>
+                Las especialidades de la casa son preparadas con ingredientes
+                nacionales, manteniendo recetas tradicionales y técnicas caseras.
+            </p>
+        </section>
+
+        <section class="card promociones">
+            <h2>Promociones especiales</h2>
+            <p>
+                Durante la semana ofrecemos menús ejecutivos, descuentos familiares
+                y promociones especiales para estudiantes.
+            </p>
+        </section>
+
+        <section class="card plato-semana">
+            <h2>Plato de la semana</h2>
+            <p>
+                Esta semana destacamos el pastel de choclo, acompañado de ensalada
+                chilena y pebre casero.
+            </p>
+        </section>
+
+        <section class="card videos">
+            <h2>Videos relacionados</h2>
+            <div class="video-responsive">
+                <iframe 
+                    src="https://www.youtube.com/embed/0XP_d4m3j0A"
+                    title="Video de gastronomía chilena"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section id="formulario" class="card formulario">
+            <h2>Formulario de reserva</h2>
+
+            <form>
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com">
+
+                <label for="personas">Cantidad de personas</label>
+                <input type="number" id="personas" name="personas" min="1" placeholder="Ejemplo: 4">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Indique fecha, hora o comentario adicional"></textarea>
+
+                <button type="submit">Enviar reserva</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="pie">
+        <p>&copy; 2026 Restaurante Sabores de Chile | Sitio adaptable con CSS Grid</p>
+    </footer>
+
+</body>
+</html>
